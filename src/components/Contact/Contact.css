@@ -1,0 +1,27 @@
+/* src/components/Contact/Contact.css */
+.contact {
+  padding: 50px;
+  background-color: #fff;
+  text-align: center; /* Center-align text for a cleaner look */
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 10px; /* Add some space below the paragraph */
+}
+
+.contact-email {
+  color: #007BFF; /* Email link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the email text bold */
+  font-size: 1.2rem; /* Adjust font size for visibility */
+}
+
+.contact-email:hover {
+  text-decoration: underline; /* Underline on hover for better visibility */
+}

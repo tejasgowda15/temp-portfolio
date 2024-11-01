@@ -1,0 +1,59 @@
+#projects {
+  padding: 50px 20px;
+  position: relative; /* Add this to ensure the title is positioned relative to the section */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Add margin for spacing */
+  position: relative; /* Keep this to ensure it's above the cards */
+  z-index: 10; /* Ensure the title is above the cards */
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards */
+  gap: 20px; /* Add gap between cards */
+}
+
+.project-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 300px; /* Set a width for the cards */
+  cursor: pointer;
+  position: relative; /* Keep this for stacking context */
+  z-index: 5; /* Lower than title but higher than other elements */
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-content {
+  padding: 15px; /* Add some padding inside the card */
+  text-align: center; /* Center text in the project content */
+}
+
+.project-image {
+  width: 100%; /* Make the image responsive */
+  height: 200px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensures the image covers the area without distorting */
+  border-radius: 5px; /* Optional: Add some rounding to the image */
+}
+
+.project-caption {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Center the project title */
+.project-title {
+  padding: 10px 0; /* Add padding above and below the title */
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center the text */
+}

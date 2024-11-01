@@ -1,0 +1,28 @@
+/* src/components/Navbar/Navbar.css */
+
+.navbar {
+    position: fixed; /* Make the navbar fixed to the top */
+    top: 0; /* Position it at the top */
+    left: 0; /* Align it to the left */
+    right: 0; /* Stretch it to the right */
+    background-color: #f0f0f5; /* Set a background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    padding: 20px 0; /* Increase top and bottom padding for a larger navbar */
+    text-align: center; /* Center the contents */
+  }
+  
+  .navbar a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Add margin between links */
+    font-size: 18px; /* Increase font size for better visibility */
+  }
+  
+  /* Optional: Style for the navbar links on hover */
+  .navbar a:hover {
+    color: #007BFF; /* Change color on hover */
+  }
+  html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}

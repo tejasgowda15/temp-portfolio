@@ -1,0 +1,64 @@
+/* src/components/Education/Education.css */
+.education {
+  padding: 50px;
+  background-color: #e2e2e2;
+}
+
+.education h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.education-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Adjusted gap for spacing */
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px; /* Reduced padding for compactness */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 700px; /* Increased max-width to 700px */
+  transition: transform 0.3s ease;
+}
+
+.education-item:hover {
+  transform: scale(1.05);
+}
+
+.education-logo {
+  width: 40px; /* Reduced logo size */
+  height: 40px; /* Maintain aspect ratio */
+  margin-right: 15px; /* Space between logo and text */
+  border-radius: 15%; /* Make the logo rounded */
+}
+
+.education-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-info h3 {
+  font-size: 1.5rem;
+  margin: 0; /* Remove bottom margin */
+}
+
+.education-degree {
+  font-size: 1.1rem; /* Slightly smaller font */
+  margin: 0; /* Remove bottom margin */
+  color: #555; /* Slightly gray text */
+  font-weight: bold; /* Make grades bold */
+}
+
+.education-year {
+  font-size: 0.9rem; /* Even smaller font */
+  color: #777; /* Even lighter gray */
+  margin: 0; /* Remove bottom margin */
+}

@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+/* WebKit Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px; /* Sleeker width */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Transparent track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Thumb color */
+  border-radius: 10px; /* Rounded corners */
+  transition: background 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Firefox Scrollbar Styles */
+* {
+  scrollbar-width: thin; /* Thinner scrollbar */
+  scrollbar-color: #888 transparent; /* Thumb color and transparent track */
+}
+
+/* Remove default arrows on the scrollbar */
+::-webkit-scrollbar-button {
+  display: none; /* Hide arrows */
+}
+
+/* Fade-in animation for scrollbar thumb */
+@keyframes thumb-fade-in {
+  from {
+    opacity: 0; /* Start invisible */
+  }
+  to {
+    opacity: 1; /* End visible */
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  animation: thumb-fade-in 0.3s ease; /* Apply fade-in animation */
+}
