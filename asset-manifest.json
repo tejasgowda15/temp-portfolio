@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/temp-portfolio/static/css/main.583a9693.css",
+    "main.js": "/temp-portfolio/static/js/main.4ad465e8.js",
+    "static/js/453.ace21015.chunk.js": "/temp-portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/excel.jpg": "/temp-portfolio/static/media/excel.337531261bc7b643715b.jpg",
+    "static/media/pythoncourse.jpg": "/temp-portfolio/static/media/pythoncourse.d3c7e75a2e9f496a9c42.jpg",
+    "static/media/matlab onramp.jpg": "/temp-portfolio/static/media/matlab onramp.b0f15c9047333eb84d76.jpg",
+    "static/media/supplychain.jpg": "/temp-portfolio/static/media/supplychain.4dbb3b42988687934949.jpg",
+    "static/media/designwars.jpg": "/temp-portfolio/static/media/designwars.7c1b8c72d4e6abdb5a8e.jpg",
+    "static/media/profiletwo.png": "/temp-portfolio/static/media/profiletwo.afef9d04baa884d82a4e.png",
+    "static/media/matlab.png": "/temp-portfolio/static/media/matlab.a573994c9be37df945df.png",
+    "static/media/composites.png": "/temp-portfolio/static/media/composites.578e38351a95a731175c.png",
+    "static/media/gridfin.png": "/temp-portfolio/static/media/gridfin.7dee8d6f6576007e7ebe.png",
+    "static/media/vidyaniketan.png": "/temp-portfolio/static/media/vidyaniketan.32e4dcb20a2e80b59edb.png",
+    "static/media/stability.png": "/temp-portfolio/static/media/stability.09e018b051af6119a39a.png",
+    "static/media/hypermesh.png": "/temp-portfolio/static/media/hypermesh.a2b75a809010d30e34df.png",
+    "static/media/wedge.png": "/temp-portfolio/static/media/wedge.8717adffe4dde1989d9c.png",
+    "static/media/patran.png": "/temp-portfolio/static/media/patran.ed72de7c56699ff42353.png",
+    "static/media/ansys.png": "/temp-portfolio/static/media/ansys.c7c1cf43cf4737e7d5e7.png",
+    "static/media/solidworks.png": "/temp-portfolio/static/media/solidworks.44cfba2aa0c2438b3226.png",
+    "static/media/chaitanya.png": "/temp-portfolio/static/media/chaitanya.d7144297ab9d214ba927.png",
+    "static/media/coursera.png": "/temp-portfolio/static/media/coursera.1e32d691918bb0514f0a.png",
+    "static/media/excel.png": "/temp-portfolio/static/media/excel.776f07342f4a5a389f72.png",
+    "static/media/linkedin.png": "/temp-portfolio/static/media/linkedin.fe4dbe4730a4a1fd82cf.png",
+    "index.html": "/temp-portfolio/index.html",
+    "main.583a9693.css.map": "/temp-portfolio/static/css/main.583a9693.css.map",
+    "main.4ad465e8.js.map": "/temp-portfolio/static/js/main.4ad465e8.js.map",
+    "453.ace21015.chunk.js.map": "/temp-portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.583a9693.css",
+    "static/js/main.4ad465e8.js"
+  ]
+}
